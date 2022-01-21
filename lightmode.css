@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1ce7dd;
+}
+.container {
+  /* border: 2px solid grey; */
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 0px 1px black;
+}
+#screen {
+  width: 161px;
+  position: relative;
+  left: 2px;
+  padding-left: 5px;
+  margin-bottom: 2px;
+  margin-right: 3px;
+  height: 48px;
+  border-radius: 3px;
+  border: none;
+}
+.clear {
+  background-color: red;
+  color: white;
+  border: none;
+}
+h1 {
+  font-family: "Heebo", sans-serif;
+  color: #fff;
+}
+.animate{
+    box-shadow: 0px 0px 5px black;
+}
+i{
+  margin-top: 20px;
+  color: black;
+}
+span{
+  
+  /* border: 2px solid black; */
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: white;
+  color: gray;
+}
+span:hover{
+  background-color: grey;
+  color: white;
+}
+
+p em{
+  position: absolute;
+  bottom: 400px;
+}
